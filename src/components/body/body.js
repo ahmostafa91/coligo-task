@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './style.css';
+import Header from './../header/header';
 
 class Body extends Component {
 
     render() {
         return (
             <React.Fragment>
-                <h1>body</h1>
+                <Header></Header>
             </React.Fragment>
         )
     }

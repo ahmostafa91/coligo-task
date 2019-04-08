@@ -1,0 +1,82 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.user {
+    order: 1;
+    margin: 2.5%;
+}
+
+.info {
+    order: 2;  
+}
+
+.search, input {
+    position: relative;
+}
+
+.search::after {
+    content: attr(data-pic);
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    display: block;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+}
+
+.search input::-webkit-input-placeholder {
+    padding-left: 3%;
+    font-size: 15px;
+}
+
+.search input {
+    width: 65%;
+    height: 50%;
+    border-radius: 20px;
+}
+
+.info .bell {
+    margin-right: 5%;
+    margin-left: 3%;
+    color: #207cca;
+}
+
+.info .envelope {
+    color: #207cca;
+}
+
+.user-photo {
+    max-width: 7%;
+    border-radius: 50%;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+
+*.icon-blue {color: #0088cc}
+*.icon-grey {color: grey}
+header span {   
+    width:100px;
+    text-align:center;
+    vertical-align:middle;
+    position: relative;
+}
+.badge:after{
+    content: "3";
+    position: absolute;
+    background: #7db9e8;
+    height: 1.5em;
+    bottom: 80%;
+    left: 51%;
+    width: 1.6em;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid #7db9e8;
+}

@@ -50,4 +50,29 @@
   .hide {
     display: none;
   }
+
+  /*header style*/
+
+  header {
+    flex-wrap: wrap;
+  }
+
+  header .user {
+    margin: auto;
+  }
+
+  header .search input {
+    width: 100%;
+  }
+
+  header .res-order {
+    bottom: 30%;
+  }
+
+  header .user-photo {
+    margin-left: 54%;
+    max-width: 12%;
+    margin-bottom: 5%;
+  }
+
 }

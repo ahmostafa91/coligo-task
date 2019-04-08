@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import * as data from './constAndLibrary';
 import './style.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import AnimateHeight from 'react-animate-height';
 
 class Sidebar extends Component {
