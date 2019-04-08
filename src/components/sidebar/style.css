@@ -1,0 +1,23 @@
+.logo {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.menu {
+    font-size: 1.2em;
+    padding-top: 15px;
+}
+
+.menu .menu-item  {
+    padding: 1.3em 
+}
+
+.menu .menu-item:hover {
+    background-color: #fff;
+    color: #3b679e;
+    border-left: 5px solid #207cca;
+}
+
+.menu .menu-item .item-icon {
+    padding-right: 1.4em;
+}
