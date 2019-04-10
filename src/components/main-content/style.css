@@ -1,0 +1,90 @@
+.content-container {
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*start exams time section*/
+
+.exams-time {
+    background-color: #fff;
+    display: flex;
+    width: 100%
+}
+
+.exams-time .exams-content {
+    padding-left: 3%;
+}
+
+/*end exams time section*/
+
+/*start announcement section*/
+
+.announcement {
+    background-color: #fff;
+    position: relative;
+    border-radius: 10px;
+    flex: 2 60%;
+    margin: 2% 2% 0 0;
+}
+
+.announcement .announcement-head {
+    padding-left: 3%;
+}
+
+.announcement-head h4 {
+    margin-bottom: 0;
+}
+
+.announcement .all-announcement {
+    position: absolute;
+    top: 5%;
+    right: 2%;
+}
+
+.announcement-content {
+    padding: 3%;
+    display: flex;
+}
+
+.info-data {
+    padding-right: 2%;
+}
+
+.info-data img {
+    max-width: 50%;
+    border-radius: 50%;
+}
+
+/*end announcement section*/
+
+/*start whats due section*/
+
+.whats-due {
+    background-color: #fff;
+    flex: 3 20%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+.whats-due-head {
+    position: relative;
+    padding-left: 3%;
+}
+
+.whats-due-head h4 {
+    margin-bottom: 0;
+}
+
+.all-whats-due{
+    position: absolute;
+    right: 5%;
+    top: 1%;
+}
+
+.whats-due-content {
+    margin-top: 5%;
+    padding: 3%;
+}
+
+/*end whats due section*/
