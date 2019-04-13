@@ -16,6 +16,37 @@
     padding-left: 3%;
 }
 
+.exams-content h1 {
+    color: #207cca;
+    font-size: 1.5em;
+}
+
+.exams-content q,
+.exams-content span {
+    font-style: italic;
+    color: #7a7c7e
+}
+
+.exams-content button {
+    display: block;
+    margin-top: 2%;
+    background-color: #2d9bfc;
+    color: #fff;
+    width: 25%;
+    height: 15%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    border: 1px solid #2d9bfc;
+    cursor: pointer;
+}
+
+.exams-content button:hover {
+    background-color: #fff;
+    color: #2d9bfc;
+}
+
 /*end exams time section*/
 
 /*start announcement section*/
@@ -34,12 +65,19 @@
 
 .announcement-head h4 {
     margin-bottom: 0;
+    color: #4d4e4e;
+}
+
+.announcement-head span {
+    color: #7a7c7e;
 }
 
 .announcement .all-announcement {
     position: absolute;
-    top: 5%;
-    right: 2%;
+    top: 3%;
+    right: 4%;
+    color: #2d9bfc;
+    font-weight: bold
 }
 
 .announcement-content {
@@ -51,9 +89,22 @@
     padding-right: 2%;
 }
 
+.info-data .name {
+    color: #4f5252;
+    font-weight: bold;
+}
+
+.info-data .title {
+    color: #7a7c7e;
+}
+
 .info-data img {
     max-width: 50%;
     border-radius: 50%;
+}
+
+.announcement-content .content {
+    color: #7a7c7e;
 }
 
 /*end announcement section*/
@@ -74,17 +125,49 @@
 
 .whats-due-head h4 {
     margin-bottom: 0;
+    color: #4d4e4e;
 }
 
-.all-whats-due{
+.all-whats-due {
     position: absolute;
-    right: 5%;
+    right: 8%;
     top: 1%;
+    color: #2d9bfc;
+    font-weight: bold
+}
+
+.whats-due-head .quote {
+    color: #7a7c7e;
 }
 
 .whats-due-content {
     margin-top: 5%;
     padding: 3%;
+    color: #4d4e4e;
+}
+
+.whats-due-content .info {
+    color: #7a7c7e;
+}
+
+.whats-due-content .item-icon {
+    color: #2d9bfc;
+}
+
+.whats-due-content button {
+    background-color: transparent;
+    color: #2d9bfc;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #2d9bfc;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.whats-due-content button:hover {
+    color: #fff;
+    background-color: #2d9bfc;
 }
 
 /*end whats due section*/

@@ -4,9 +4,11 @@ export const content = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 export const quote = 'nothing happens until something moves';
 export const name = 'Albert Einstein';
 export const button = 'View exams tips';
+export const updated = 'Keep updated';
 export const imageSrc = 'https://via.placeholder.com/300';
 // end exams section data
 
 // start announcement section data
 export const announcementHead = 'Announcement';
-export const title = 'Math101';
+export const whatsDueHead = 'What\'s Due';
+export const whatsDueQuote = 'Sometimes "Later" becomes "never" Go Now';

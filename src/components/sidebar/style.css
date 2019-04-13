@@ -9,7 +9,8 @@
 }
 
 .menu .menu-item  {
-    padding: 1.3em 
+    padding: 1.3em;
+    cursor: pointer;
 }
 
 .menu .menu-item:hover {

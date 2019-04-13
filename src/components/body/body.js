@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './style.css';
-import Header from './../header/header';
-import MainContent from './../main-content/mainContent';
+import Header from '../header/Header';
+import MainContent from '../main-content/MainContent';
 
 class Body extends Component {
 
